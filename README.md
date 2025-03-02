@@ -16,12 +16,12 @@ The pipeline consists of three main steps:
 - Loads raw data into a temporary Delta table for further processing.
 - Uses PySpark to efficiently handle large datasets.
 
-### 2. Transformation (`transform.py`)
+### 2. Transformation (`transform.ipynnb`)
 - Cleans the dataset by handling missing values and renaming columns.
 - Converts data types where necessary.
 - Removes duplicate entries to ensure data integrity.
 
-### 3. Loading (`load.py`)
+### 3. Loading (`load.ipynb`)
 - Writes the transformed data into a final Delta table.
 - Optimizes the table for efficient querying and analysis in Databricks.
 
